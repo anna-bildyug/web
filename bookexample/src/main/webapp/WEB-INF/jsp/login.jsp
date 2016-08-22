@@ -30,7 +30,7 @@
 								<br />
 							</div>
 						</c:if>
-						<form action="<c:url value="/j_spring_security_check"></c:url>"	method="post">
+						<form action="<c:url value="/j_spring_security_check"/>"	method="post">
 							<fieldset>
 								<div class="form-group">
 									<input class="form-control" placeholder="User Name"
@@ -38,7 +38,7 @@
 								</div>
 								<div class="form-group">
 									<input class="form-control" placeholder="Password"
-										name='j_password' type="password" value="">
+										name='j_password' type="password">
 								</div>
 								<input class="btn btn-lg btn-success btn-block" type="submit"
 									value="Login">
